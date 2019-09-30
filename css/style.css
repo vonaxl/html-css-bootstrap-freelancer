@@ -43,6 +43,15 @@ li{
 i{
   font-size: 30px;
 }
+
+.line{
+  width: 40%;
+  height: 20px;
+  border-bottom: 5px solid white;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
 /* /class selectors to be reused */
 
 /* HEADER */
@@ -63,6 +72,32 @@ header a{
 header .b a{
   text-align: left;
   font-size: 16px;
+}
+nav{
+  position: relative;
+}
+
+#drop2{
+  display: none;
+}
+
+#drop2 a{
+  background-color: #1ABC9C;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+}
+
+#dropmenu{
+  display: none;
+  background-color: #2C3E50;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+
+#dropmenu li{
+  float: none;
 }
 /* /HEADER */
 
@@ -110,6 +145,10 @@ header .b a{
   width:100%;
   padding: 4%;
   border-radius: 30px;
+}
+
+#second .line{
+  border-bottom: 5px solid  #2C3E50;
 }
 
 /* /second */
@@ -175,4 +214,75 @@ header .b a{
   color: white;
   background-color: #1ABC9C;
 }
+
+#fourth .line{
+  border-bottom: 5px solid  #2C3E50;
+}
 /* /FOURTH */
+
+/* footer top */
+#topfoot{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #2C3E50;
+  text-align: center;
+}
+#topfoot h3{
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+#topfoot #social a{
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  color: white;
+}
+#topfoot a{
+  color: #1ABC9C;
+}
+
+#topfoot a i{
+  font-size: 15px;
+}
+
+#bottomfoot{
+  text-align: center;
+  line-height: 50px;
+  background-color: #1A252F;
+}
+#bottomfoot p{
+  margin: 0;
+}
+/* /footer top */
+
+@media only screen and (max-width: 767px) {
+  #drop1{
+    display: none;
+  }
+  #drop2{
+    display: block;
+    font-size: 20px;
+  }
+  #drop2:hover #dropmenu{
+    display: block;
+  }
+
+  #first{
+    padding-top: 20%;
+    padding-bottom: 20%
+  }
+
+  #first img{
+    width: 50%;
+  }
+  #first h1{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #first i{
+    padding-bottom: 10px;
+  }
+
+
+}
