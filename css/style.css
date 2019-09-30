@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  color: white;
+}
 /* /general rules */
 
 /* class selectors to be reused */
@@ -52,3 +56,25 @@ header .b a{
   font-size: 16px;
 }
 /* /HEADER */
+
+/* first */
+#first{
+  background-color: #1ABC9C;
+  /* height: 50vh; */
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+#first img{
+  width: 20%;
+}
+#first h1{
+  font-size: 60px;
+  font-weight: bold;
+}
+#first i{
+
+  padding-bottom: 15px;
+}
+/* /first */
