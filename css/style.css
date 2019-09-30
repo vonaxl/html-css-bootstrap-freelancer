@@ -1,1 +1,54 @@
+/* general rules */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* /general rules */
 
+/* class selectors to be reused */
+.pad{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  text-transform: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+li{
+  float: left;
+  display: block;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* /class selectors to be reused */
+
+/* HEADER */
+header{
+  background-color: #2C3E50;
+  color: white;
+}
+header a{
+  font-size: 25px;
+  line-height: 75px;
+  font-weight: bold;
+}
+header .b a{
+  text-align: left;
+  font-size: 16px;
+}
+/* /HEADER */
