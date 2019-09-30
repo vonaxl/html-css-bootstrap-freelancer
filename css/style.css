@@ -45,6 +45,11 @@ li{
 header{
   background-color: #2C3E50;
   color: white;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  width: 100%;
+
 }
 header a{
   font-size: 25px;
@@ -104,3 +109,32 @@ header .b a{
 }
 
 /* /second */
+
+/* third */
+#third{
+  background-color: #1ABC9C;
+  /* height: 50vh; */
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#third h2{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#third .textcon{
+  text-align: left;
+  width: 60%;
+  margin: auto;
+}
+#third a{
+  padding: 7px 14px 7px 14px;
+  border-radius: 5px;
+  border: white solid 2px;
+}
+
+
+/* /third */
