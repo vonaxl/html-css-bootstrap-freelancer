@@ -74,7 +74,33 @@ header .b a{
   font-weight: bold;
 }
 #first i{
-
   padding-bottom: 15px;
 }
 /* /first */
+
+/* second */
+#second{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  color: #2C3E50;
+  margin: auto;
+}
+
+#second h2{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#second [class*="col-"]{
+  padding: 0;
+}
+#second img{
+  width:100%;
+  padding: 4%;
+  border-radius: 30px;
+}
+
+/* /second */
