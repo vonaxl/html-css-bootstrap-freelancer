@@ -84,25 +84,35 @@ header .container .row{
   position: relative;
   transition: 0.5s;
 }
+#drop1 a:hover {
+  background-color: #1ABC9C;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+  color: white;
+}
 
 #drop2 a{
   background-color: #1ABC9C;
   border-radius: 5px;
   padding: 15px 15px 10px 15px;
+  margin: 5px 10px;
+  text-align: center;
 }
 
 #dropmenu{
   display: none;
   background-color: #2C3E50;
-  width: 100%;
+  width: auto;
   position: absolute;
   left: 0;
   z-index: 4;
 }
 
+
 #dropmenu li{
   float: none;
 }
+
 /* /HEADER */
 
 /* first */
@@ -144,7 +154,6 @@ header .container .row{
 
 #second .col-xs-12:hover{
   background-color: gray;
-  z-index: 3;
 
 }
 
