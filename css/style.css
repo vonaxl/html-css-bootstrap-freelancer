@@ -82,12 +82,13 @@ header .container .row{
 #drop2{
   display: none;
   position: relative;
+  transition: 0.5s;
 }
 
 #drop2 a{
   background-color: #1ABC9C;
   border-radius: 5px;
-  padding: 10px 15px 10px 15px;
+  padding: 15px 15px 10px 15px;
 }
 
 #dropmenu{
@@ -139,6 +140,12 @@ header .container .row{
 #second h2{
   font-size: 50px;
   font-weight: bold;
+}
+
+#second .col-xs-12:hover{
+  background-color: gray;
+  z-index: 3;
+
 }
 
 #second [class*="col-"]{
