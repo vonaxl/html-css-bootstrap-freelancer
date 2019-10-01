@@ -76,9 +76,12 @@ header .b a{
 nav{
   position: relative;
 }
-
+header .container .row{
+  position: relative;
+}
 #drop2{
   display: none;
+  position: relative;
 }
 
 #drop2 a{
@@ -93,7 +96,7 @@ nav{
   width: 100%;
   position: absolute;
   left: 0;
-  z-index: 2;
+  z-index: 4;
 }
 
 #dropmenu li{
@@ -256,7 +259,11 @@ nav{
 }
 /* /footer top */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px),(min-width: 768px) and (max-width: 991px) {
+  header nav a{
+    font-size: 15px;
+  }
+
   #drop1{
     display: none;
   }
@@ -277,7 +284,7 @@ nav{
     width: 50%;
   }
   #first h1{
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bold;
   }
   #first i{
@@ -286,3 +293,25 @@ nav{
 
 
 }
+
+/* @media only screen and (min-width: 768px) and (max-width: 991px){
+  header nav a{
+    font-size: 15px;
+  }
+
+  #drop1{
+    display: none;
+  }
+  #drop2{
+    display: block;
+    font-size: 20px;
+  }
+  #drop2:hover #dropmenu{
+    display: block;
+  }
+
+
+
+@media screen and (min-width:992px) {
+
+} */
